@@ -12,8 +12,8 @@ interface Movie {
   rating_count: number
 }
 
-// ─── Constants ────────────────────────────────────────────────────────────────
-const API = 'http://3.81.101.217:8000/'
+// ─── Constants ────────────────────────────────────────────────────────────────────
+const API = process.env.NEXT_PUBLIC_API_URL || 'http://127.0.0.1:8000'
 
 const GENRES = [
   'Action', 'Adventure', 'Animation', 'Comedy', 'Crime',
