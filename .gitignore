@@ -1,0 +1,15 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Node / Next
+frontend/node_modules/
+frontend/.next/
+frontend/.env
+
+# Data & models
+*.csv
+model.h5
+encoder.pkl
+.env

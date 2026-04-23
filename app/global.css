@@ -1,0 +1,11 @@
+.movie-card {
+  padding: 16px;
+  border-radius: 12px;
+  background: #1f1f1f;
+  transition: 0.3s;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+  background: #2a2a2a;
+}
